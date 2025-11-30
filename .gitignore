@@ -1,0 +1,76 @@
+# API Keyファイル（機密情報）
+.api_key.json
+*.api_key.json
+
+# キャラクター情報（機密情報の可能性）
+.characters.json
+*.characters.json
+
+# プロンプト履歴（個人情報の可能性）
+.prompt_history.json
+.favorite_prompts.json
+
+# 大きなメディアファイル（GitHubの100MB制限を超える可能性）
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+
+# 音声ファイル
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.wma
+
+# 画像ファイル（大量の画像を除外）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# 素材フォルダ（動画、画像、音声など）
+00_キャラクター/
+01_曲_Input/
+02_元動画_Sora/
+03_静止画_選定/
+04_AI動画_生成中/
+05_動画_高品質化/
+06_動画_口パク/
+98_MV_完成品/
+99_MV_編集素材/
+99_Logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
