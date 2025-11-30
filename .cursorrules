@@ -38,6 +38,14 @@ When valid, you may briefly summarize your plan in 1-2 sentences, then provide t
 
 # PROJECT-SPECIFIC RULES (MV Production Automation Agent)
 
+> ⚠️ **重要**: このプロジェクトを操作する前に、**必ず以下のファイルを読み込んでください**：
+> - **`開発ルール.md`** - 詳細な開発ルール（このルールの完全版）
+> - **`仕様書.md`** - システムの技術仕様、処理フロー、データ形式
+> - **`CHANGELOG.md`** - 変更履歴（最新の変更内容を確認）
+> - **`README.md`** - プロジェクト概要
+> 
+> これらのファイルを読み込まないと、開発ルールに違反する可能性があります。
+
 ## 必須遵守ルール
 
 このプロジェクトを操作する際は、**必ず以下のルールを守ってください**。
